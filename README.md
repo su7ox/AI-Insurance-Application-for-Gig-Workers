@@ -1,4 +1,4 @@
-# 🛡️ GigShield — AI-Powered Parametric Income Insurance for Gig Workers
+# GigInsurance — AI-Powered Parametric Income Insurance for Gig Workers
 
 > **Persona:** Grocery & Q-Commerce Delivery Partners (Zepto / Blinkit)
 
@@ -6,7 +6,7 @@
 
 ## 🔍 Problem Statement
 
-India's Q-Commerce delivery partners (Zepto, Blinkit, Dunzo, etc.) are the backbone of the hyperlocal delivery economy. These gig workers operate in high-frequency, outdoor environments and are uniquely vulnerable to external disruptions — extreme weather, flooding, curfews, and platform outages — that directly cut into their daily earnings.
+India's Q-Commerce delivery partners (Zepto, Blinkit etc.) are the backbone of the hyperlocal delivery economy. These gig workers operate in high-frequency, outdoor environments and are uniquely vulnerable to external disruptions — extreme weather, flooding, curfews, and platform outages — that directly cut into their daily earnings.
 
 **Key pain points:**
 - Gig workers can lose **20–30% of monthly income** during disruption events
@@ -20,7 +20,7 @@ India's Q-Commerce delivery partners (Zepto, Blinkit, Dunzo, etc.) are the backb
 
 ## 💡 Our Solution
 
-**GigShield** is an AI-enabled, fully automated parametric income insurance platform built exclusively for Q-Commerce delivery partners. It:
+**GigInsurance** is an AI-enabled, fully automated parametric income insurance platform built exclusively for Q-Commerce delivery partners. It:
 
 - Calculates a **dynamic weekly premium** using real-time risk signals
 - Triggers **automatic payouts** when verified disruptions occur — no claim filing needed
