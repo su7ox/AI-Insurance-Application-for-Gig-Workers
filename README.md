@@ -5,7 +5,7 @@
 
 
 
-## 🔍 Problem Statement
+##  Problem Statement
 
 India's Q-Commerce delivery partners (Zepto, Blinkit etc.) are the backbone of the hyperlocal delivery economy. These gig workers operate in high-frequency, outdoor environments and are uniquely vulnerable to external disruptions — extreme weather, flooding, and curfews/Section 144 orders — that directly cut into their daily earnings.
 
@@ -19,7 +19,7 @@ India's Q-Commerce delivery partners (Zepto, Blinkit etc.) are the backbone of t
 
 ---
 
-## 💡 Our Solution
+## Our Solution
 
 **GigInsurance** is an AI-enabled, fully automated parametric income insurance platform built exclusively for Q-Commerce delivery partners. It:
 
@@ -40,14 +40,14 @@ India's Q-Commerce delivery partners (Zepto, Blinkit etc.) are the backbone of t
 - Operates across 3–4 delivery zones in his area
 
 ### Scenario A — Heavy Rain Event
-> Rahul sends a WhatsApp message: *"It was raining heavily, couldn't deliver from 2PM to 4PM."* The Claim Agent classifies the disruption as Heavy Rain, calls the weather API (85mm recorded ✅), verifies his active shift via platform telemetry ✅, fetches the Tier-1 policy threshold via RAG (>50mm ✅), runs the payout math, and replies with a localized Smart Receipt confirming ₹280 credited to his wallet — all within minutes, directly in chat.
+> Rahul sends a WhatsApp message: *"It was raining heavily, couldn't deliver from 2PM to 4PM."* The Claim Agent classifies the disruption as Heavy Rain, calls the weather API (85mm recorded ), verifies his active shift via platform telemetry , fetches the Tier-1 policy threshold via RAG (>50mm ), runs the payout math, and replies with a localized Smart Receipt confirming ₹280 credited to his wallet — all within minutes, directly in chat.
 
 ### Scenario B — Curfew / Section 144
-> Rahul sends a WhatsApp message: *"Police stopped all movement near my area around 6PM, had to stop working."* The Claim Agent identifies this as a Curfew/Section 144 event, queries the government news feed to confirm the order ✅, verifies Rahul was logged in at 6PM ✅, and replies in Hindi with a Smart Receipt detailing the payout proportional to his remaining shift hours.
+> Rahul sends a WhatsApp message: *"Police stopped all movement near my area around 6PM, had to stop working."* The Claim Agent identifies this as a Curfew/Section 144 event, queries the government news feed to confirm the order , verifies Rahul was logged in at 6PM , and replies in Hindi with a Smart Receipt detailing the payout proportional to his remaining shift hours.
 
 ---
 
-## 🔄 Application Workflow
+##  Application Workflow
 
 ```
 Worker sends WhatsApp message to GigInsurance Bot
@@ -72,7 +72,7 @@ Worker describes disruption in plain text, voice, or via quick-reply buttons/lis
 (cause + approximate time — that's it)
        │
        ▼
-🤖 Agentic AI Claim Processor (LangGraph)
+ Agentic AI Claim Processor (LangGraph)
   │
   ├── Step 1: Classify disruption type from natural language
   │
@@ -102,7 +102,7 @@ Smart Receipt delivered as WhatsApp message
 
 ---
 
-## 💰 Weekly Premium Model
+##  Weekly Premium Model
 
 Our pricing system dynamically calculates a weekly insurance premium based on real-world risk factors. Unlike flat-fee models, GigShield uses AI-driven risk scoring to ensure fair, location-aware pricing.
 
@@ -135,7 +135,7 @@ Weekly Premium = Base Fee + [Σ (Pᵢ × Max Payout × Sᵢ)] × (1 + M)
 
 ---
 
-## ⚡ Parametric Triggers
+##  Parametric Triggers
 
 Workers simply describe what happened and roughly when. The **Claim Agent classifies the disruption type** from their natural language input and autonomously calls the relevant data source to verify it. Supported trigger types:
 
@@ -155,7 +155,7 @@ Each trigger is validated against:
 
 ---
 
-## 🤖 AI/ML Integration
+##  AI/ML Integration
 
 The core of GigInsurance is an **Agentic AI Claim Processor** built on LangGraph. The agent receives the worker's plain-text description and autonomously reasons through verification — calling only the tools relevant to that specific disruption type, in the right order, without any hardcoded branching logic.
 
@@ -201,7 +201,7 @@ Once the agent completes verification and the math is finalized, the LLM's only 
 
 ---
 
-## 🔐 Fraud Prevention
+##  Fraud Prevention
 
 ### Problem → Solution Matrix
 
@@ -228,7 +228,7 @@ This prevents financial instability while remaining fair — no sudden or arbitr
 
 ---
 
-## 💸 Payout Engine
+##  Payout Engine
 
 ### Step-by-Step Calculation
 
@@ -258,7 +258,7 @@ Final Payout = min(Adjusted Rate × Effective Hours, ₹500)
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology | Purpose |
 |---|---|---|
@@ -293,7 +293,7 @@ Final Payout = min(Adjusted Rate × Effective Hours, ₹500)
 
 ---
 
-## 📅 Development Plan
+##  Development Plan
 
 ### Phase 1 — Ideation & Foundation 
 - [x] Persona definition and scenario mapping
