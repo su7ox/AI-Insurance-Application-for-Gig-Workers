@@ -18,8 +18,8 @@ class Settings(BaseSettings):
     # --- Vector DB ---
     CHROMA_PERSIST_DIR: str = "./.chroma"
 
-    # --- Weather API (OpenWeatherMap) ---
-    WEATHER_API_KEY: str
+    # --- Weather API (OpenWeatherMap — kept for fallback) ---
+    WEATHER_API_KEY: str = ""
     WEATHER_API_BASE_URL: str = "https://api.openweathermap.org"
 
     # --- Government / News Feed (NewsAPI) ---

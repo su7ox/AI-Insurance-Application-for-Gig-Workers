@@ -1,0 +1,70 @@
+{
+  "zepto": {
+    "ZPT001": {
+      "partner_id": "ZPT001",
+      "name": "Rahul Sharma",
+      "phone": "919999999999",
+      "zone": "Noida Sector 18",
+      "vehicle_type": "motorcycle",
+      "tier": "silver",
+      "preferred_language": "hi",
+      "risk_score": 0.65,
+      "weekly_premium": 95.00,
+      "active_shift": {
+        "start": "08:00",
+        "end": "18:00",
+        "logged_in": true
+      }
+    },
+    "ZPT002": {
+      "partner_id": "ZPT002",
+      "name": "Amit Kumar",
+      "phone": "918888888888",
+      "zone": "Noida Sector 62",
+      "vehicle_type": "bicycle",
+      "tier": "bronze",
+      "preferred_language": "en",
+      "risk_score": 0.35,
+      "weekly_premium": 55.00,
+      "active_shift": {
+        "start": "10:00",
+        "end": "20:00",
+        "logged_in": true
+      }
+    }
+  },
+  "blinkit": {
+    "BLK001": {
+      "partner_id": "BLK001",
+      "name": "Suresh Yadav",
+      "phone": "917777777777",
+      "zone": "Gurgaon Sector 14",
+      "vehicle_type": "motorcycle",
+      "tier": "gold",
+      "preferred_language": "hi",
+      "risk_score": 0.80,
+      "weekly_premium": 130.00,
+      "active_shift": {
+        "start": "09:00",
+        "end": "19:00",
+        "logged_in": true
+      }
+    },
+    "BLK002": {
+      "partner_id": "BLK002",
+      "name": "Vijay Singh",
+      "phone": "916666666666",
+      "zone": "Gurgaon Sector 29",
+      "vehicle_type": "e-bike",
+      "tier": "silver",
+      "preferred_language": "mr",
+      "risk_score": 0.55,
+      "weekly_premium": 85.00,
+      "active_shift": {
+        "start": "11:00",
+        "end": "21:00",
+        "logged_in": true
+      }
+    }
+  }
+}
